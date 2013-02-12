@@ -11,28 +11,33 @@ You can follow the instructions from that portal which also has the system requi
 * NET Framework 4.0
 
 ##Hardware Requirements
+
 *32 bit (x86) or 64 bit (x64) processor
-tag_br space
+
+
 *Dual-core 2.66-GHz or faster processor
-tag_br space
+
+
 *Dedicated USB 2.0 bus
-tag_br space
+
+
 *2 GB RAM
-tag_br space
+
+
 *A retail Kinect __for Xbox 360® sensor__, which includes special USB/power cabling
-tag_br space
+
 
 ##Use with Join-In applications
 
-1) Uninstall all previous drivers that are associated with the Kinect, Primesense / OpenNi.
-tag_br space space
-2) Unplug the Kinect if not unplugged already.
-tag_br space
-3) Install the Kinect SDK from the link above.
-tag_br space
-4) Compile the application in VS2010 if there isn't an .exe in the KinectServer folder. __Note:__ Once compiled you can just run the .exe file or start it as a process on PC start up.
-tag_br space space
-5) Open the game in the browser, chrome, once the application runs.
+1. Uninstall all previous drivers that are associated with the Kinect, Primesense / OpenNi.   
+
+2. Unplug the Kinect if not unplugged already.  
+
+3. Install the Kinect SDK from the link above. 
+
+4. Compile the application in VS2010 if there isn't an .exe in the KinectServer folder. __Note:__ Once compiled you can just run the .exe file or start it as a process on PC start up.
+
+5. Open the game in the browser, chrome, once the application runs.
 
 ##Known bugs
 

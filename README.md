@@ -25,7 +25,7 @@ tag_br space
 ##Use with Join-In applications
 
 1) Uninstall all previous drivers that are associated with the Kinect, Primesense / OpenNi.
-tag_br space
+tag_br space space
 2) Unplug the Kinect if not unplugged already.
 tag_br space
 3) Install the Kinect SDK from the link above.

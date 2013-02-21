@@ -7,7 +7,7 @@ You can follow the instructions from that portal which also has the system requi
 
 ###Software Requirements
 
-* Microsoft® Visual Studio® 2010 Express or other Visual Studio 2010 edition __To compile__
+* Microsoftï¿½ Visual Studioï¿½ 2010 Express or other Visual Studio 2010 edition __To compile__
 * NET Framework 4.0
 
 ###Hardware Requirements
@@ -24,7 +24,7 @@ You can follow the instructions from that portal which also has the system requi
 *2 GB RAM
 
 
-*A retail Kinect __for Xbox 360® sensor__, which includes special USB/power cabling
+*A retail Kinect __for Xbox 360ï¿½ sensor__, which includes special USB/power cabling
 
 
 ###Use with Join-In applications
@@ -39,7 +39,7 @@ You can follow the instructions from that portal which also has the system requi
 
 5. Test that the drivers have been installed correctly by running the sample skeleton viewer application that comes with the SDK.
 
-6. Compile the application in VS2010 if there isn't an .exe in the \KinectServer\bin folder. __Note:__ Once compiled you can just run the .exe file or start it as a process on PC start up.
+6. Run setup.exe in the [publish](https://github.com/Guyver/JoinIn-Client/tree/master/KinectHtml5/KinectHtml5/Kinect.Server) folder. 
 
 7. Open the game in the browser, chrome, once the application runs.
 

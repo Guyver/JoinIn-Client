@@ -9,10 +9,10 @@ namespace Kinect.Server
 {
     class Program
     {
-        static Runtime nui;
-        static List<IWebSocketConnection> sockets;
+        static Runtime _nui;
+        static List<IWebSocketConnection> _sockets;
 
-        static bool initialized = false;
+        static bool _initialized = false;
 
         static void Main(string[] args)
         {
@@ -28,7 +28,7 @@ namespace Kinect.Server
         /// </summary>
         private static void InitializeSockets()
         {
-            sockets = new List<IWebSocketConnection>();
+            _sockets = new List<IWebSocketConnection>();
 
             var server = new WebSocketServer("ws://localhost:8181");
 
@@ -38,14 +38,14 @@ namespace Kinect.Server
                 socket.OnOpen = () =>
                 {
                     Console.WriteLine("Connected to " + socket.ConnectionInfo.ClientIpAddress);
-                    sockets.Add(socket);
+                    _sockets.Add(socket);
                 };
 
 
                 socket.OnClose = () =>
                 {
                     Console.WriteLine("Disconnected from " + socket.ConnectionInfo.ClientIpAddress);
-                    sockets.Remove(socket);
+                    _sockets.Remove(socket);
                 };
 
                 
@@ -55,7 +55,7 @@ namespace Kinect.Server
                 };
             });
 
-            initialized = true;
+            _initialized = true;
 
             Console.ReadLine();
         }
@@ -65,9 +65,9 @@ namespace Kinect.Server
         /// </summary>
         private static void InitilizeKinect()
         {
-            nui = Runtime.Kinects[0];
-            nui.Initialize(RuntimeOptions.UseDepthAndPlayerIndex | RuntimeOptions.UseSkeletalTracking);
-            nui.SkeletonFrameReady += new EventHandler<SkeletonFrameReadyEventArgs>(Nui_SkeletonFrameReady);
+            _nui = Runtime.Kinects[0];
+            _nui.Initialize(RuntimeOptions.UseDepthAndPlayerIndex | RuntimeOptions.UseSkeletalTracking);
+            _nui.SkeletonFrameReady += new EventHandler<SkeletonFrameReadyEventArgs>(Nui_SkeletonFrameReady);
         }
 
         /// <summary>
@@ -77,7 +77,7 @@ namespace Kinect.Server
         /// <param name="e"></param>
         static void Nui_SkeletonFrameReady(object sender, SkeletonFrameReadyEventArgs e)
         {
-            if (!initialized) return;
+            if (!_initialized) return;
 
             List<SkeletonData> users = new List<SkeletonData>();
 
@@ -93,7 +93,7 @@ namespace Kinect.Server
             {
                 string json = users.Serialize();
 
-                foreach (var socket in sockets)
+                foreach (var socket in _sockets)
                 {
                     socket.Send(json);
                 }

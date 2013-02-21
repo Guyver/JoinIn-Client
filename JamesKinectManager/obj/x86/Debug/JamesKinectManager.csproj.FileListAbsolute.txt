@@ -1,0 +1,5 @@
+D:\Github\JoinIn-Client\JamesKinectManager\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Github\JoinIn-Client\JamesKinectManager\obj\x86\Debug\JamesKinectManager.Form1.resources
+D:\Github\JoinIn-Client\JamesKinectManager\obj\x86\Debug\JamesKinectManager.Properties.Resources.resources
+D:\Github\JoinIn-Client\JamesKinectManager\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Github\JoinIn-Client\JamesKinectManager\obj\x86\Debug\GenerateResource.write.1.tlog

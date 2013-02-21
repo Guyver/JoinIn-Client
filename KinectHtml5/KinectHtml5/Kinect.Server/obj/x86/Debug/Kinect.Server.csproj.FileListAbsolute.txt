@@ -16,4 +16,15 @@ C:\Users\Home\Desktop\Games Engineering\KinectHtml5\KinectHtml5\Kinect.Server\bi
 C:\Users\Home\Desktop\Games Engineering\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.pdb
 C:\Users\Home\Desktop\Games Engineering\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Fleck.dll
 C:\Users\Home\Desktop\Games Engineering\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Github\AntiqueHunt\Antique Hunt\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.exe
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.pdb
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Fleck.dll
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.exe.manifest
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\bin\Debug\Kinect.Server.application
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe.manifest
+C:\Users\Home\Desktop\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.application
+D:\Github\JoinIn-Client\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+D:\Github\JoinIn-Client\KinectHtml5\KinectHtml5\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb

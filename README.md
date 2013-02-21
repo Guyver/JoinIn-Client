@@ -41,7 +41,9 @@ You can follow the instructions from that portal which also has the system requi
 
 6. Run setup.exe in the [publish](https://github.com/Guyver/JoinIn-Client/tree/master/KinectHtml5/KinectHtml5/Kinect.Server) folder. 
 
-7. Open the game in the browser, chrome, once the application runs.
+7. Run the application you just installed. 
+
+8. Open the browser and play the game.
 
 ###Known bugs
 
